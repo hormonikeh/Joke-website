@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100;300;500;600;700&
+    family=Instrument+Sans:wght@100;300;500;600;700&family=Geist+Mono&display=swap">
+
+    <style>
+        body {
+        font-family: 'Instrument Sans', 'Anek Tamil','Geist Mono' sans-serif;}
+     </style>
+</head>
+<body class="font-sans text-gray-800">
+
+    <nav class="relative bg-[#e9ecfd] border-b border-black order-3 grow-0 z-3 md:h-[50px] flex items-center justify-between ">
+       <div class="h-[50px] flex items-center gap-[10px] md:gap-[52px]">
+        <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777147175/Vector_yddjso.svg" alt="" class="w-[43.41px] md:w-[180.32px] h-[25.78px]">
+         <span class="absolute left-[60.6px] md:ml-[52.32px] h-[20px] mt-[3px] font-['Instrument_Sans'] leading-[1.1] tracking-[-0.05em] text-[#000000] font-[700px] text-sm">PrimalTraining</span>
+       </div>
+       <!-- DESKTOP MENU -->
+       <div class="space-x-6 mr-4 hidden md: flex-center gap-[60px] md:block"> 
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors">Home</a>
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors"> About</a>
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors bg-[#828cf6]
+         px-4 py-2 rounded transition-all hover:bg-opacity-90 shadow-sm duration-300 ease-in-out">Reserve Your Spot</a>
+       </div>
+       <!-- MOBILE + BUTTON -->
+        <button id="menuBtn" class="md:hidden ml-auto font-light mr-4">
+            <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777160991/plus_oe8fbz.svg" alt="" class="w-[32px] h-[32px]">
+        </button>
+        <div id="mobile menu" class="hidden absolute top-full left-0 w-full 
+        flex flex-col p-6 space-y-4 md:static md: flex row md:space-y-0 md:space-x-8
+        md:w-auto z-50">
+        <a href="#" class="flex-none text-sm font-semibold uppercase tracking-wide hover:text-gray-600 transition-colors">Home</a>
+        <a href="#" class="tlex-none ext-sm font-semibold uppercase tracking-wide hover:text-gray-600 transition-colors"> About</a>
+        <a href="#" class="lex-none bg-[#828cf6] px-4 py-2 rounded text-sm font-semibold uppercase tracking-wider tranisition-all hover:bg-opacity-90 shadow-sm duration-300 ease-in-out">Reserve Your Spot</a>
+            
+        </div>
+    </nav>
+
+    <header class="p-6 md:p-12 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-start"> 
+        <!-- Headline with Container Width Extension -->
+        <div class="xl:col-span-2 border-b border-black order-3 grow-0 z-3 ">
+        <h1 class=" text-center font-['Anek_Tamil'] font-extrabold text-[37px] leading-[1.8] tracking-[0.05em] md:text-7xl uppercase font-bold 
+        flex flex-none order-0 self-stretch grow-0 tracking-tighter items-baseline">
+        <span>Train</span>
+        <span class="ml-w-2">Hard.</span>
+        <span class="text-[#828df6] ml-4">Live</span>
+        <span class="text-[#828df6]">Better</span>
+        </h1>
+    
+        </div>
+
+        <main>
+            <div>
+                <div class="md:col-span-2">
+                     <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777111252/meghan-holmes-wy_L8W0zcpI-unsplash_yq5urc.jpg" alt="" class="mx-auto md:w-full h-full object-cover">
+                </div>
+                <div class="md:flex md:flex-col md:justify-start p-6 ">
+                   <div class="flex flex-col md:justify-between">
+                    <h2 class="font-['Anek_Tamil'] font-[700] text-[30px] md:text-[36px] leading-[0.91] tracking-[0.03em] uppercase text-[#000000]"> FOR THE COMMITTED</h2>
+                    <p class="mt-4 md:py-36 text-sm w-[226.25px] h-[181px] order-1 font-['Instrument_Sans'] px-4">Train like an athlete with top-tier equipment and expert programming. Whether you're building muscle or breaking PRs, we help you push past limits.
+                    </p>
+                   </div>
+                   <a href="#" class="font-['Instrument_Sans'] py-2 font-bold text-xs uppercase underline tracking-widest">About Us</a>
+                </div>
+
+                 <div>
+                    <div>
+                        <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777208342/spencer-davis-0ShTs8iPY28-unsplash.jpg_qmcqnt.jpg" alt="" class="w-[375px] h-[479px] cols-start-3 col-end-[-1] row-start-2">
+                        <h2 class="font-['Anek_Tamil'] font-[700] mt-8 p-4 text-[30px] w-[226.67px] h-[66px] md:w-[375px] md:text-[36px] leading-[0.91] tracking-[0.03em] uppercase">Guided by Experts</h2>
+                <p class="font-['Instrument_Sans'] font-[400] mt-4 w-[226.67px] md:w-[375px] h-[120px] p-4 text-[15px] leading-[1.31]"> We believe in creating a positive environment where you can thrive. We're here to help you achieve your goals and unlock your full potential.
+                </p>
+                 </div>
+            <div>
+                <h2 class="font-['Anek_Tamil'] font-[700] mt-8 p-4 text-[30px] w-[226.67px] h-[66px] md:w-[375px] md:text-[36px] leading-[0.91] tracking-[0.03em] uppercase">DYNAMIC OPEN GYM</h2>
+                <p class="font-['Instrument_Sans'] font-[400] w-[226.67px] md:w-[375px] h-[140px] p-4 text-[15px] leading-[1.31]"> Our facility is the optimal environment for strength training and performance, fully equipped with top-of-the-line tools, ample training areas, and a focus on functional movement.</p>
+            </div>
+
+                    </div>
+                
+            </div>
+
+           
+
+
+
+        </main>
+       
+    </header>
+    <script>
+        const menuBtn= document.getElementById('menuBtn');
+        const mobileMenu= document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () =>{
+            // Toggles the 'hidden' class to show/hide the menu
+            mobileMenu.classList.toggle('hidden');
+        })
+    </script>
+</body>
+</html>

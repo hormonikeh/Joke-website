@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100;300;500;600;700&
+    family=Instrument+Sans:wght@100;300;500;600;700&family=Geist+Mono&family=Geist:wght@100;300;700&display=swap">
+
+    <style>
+        body {
+        font-family: 'Instrument Sans', 'Anek Tamil','Geist Mono','Geist' sans-serif;}
+     </style>
+</head>
+<body class="text-gray-800">
+            <!-- NAV BAR -->
+    <header class="relative bg-[#e9ecfd] border-b border-black border-3 grow-0 z-3 md:h-[50px] flex items-center justify-between py-4 ">
+       <div class="h-[50px] flex items-center gap-[10px] md:gap-[52px]">
+        <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777147175/Vector_yddjso.svg" alt="" class="w-[43.41px] md:w-[180.32px] h-[25.78px]">
+         <span class="absolute left-[60.6px] md:ml-[52.32px] h-[20px] mt-[3px] font-['Geist'] font-semibold leading-[1.1] tracking-[-0.05em] text-[#000000] font-[700px] text-sm">PrimalTraining</span>
+       </div>
+       <!-- DESKTOP MENU -->
+       <nav class="space-x-6 mr-4 hidden md: flex-center gap-[60px] md:block"> 
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors">Home</a>
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors"> About</a>
+        <a href="#" class="w-[45px] h-[17px] font-['Geist_Mono'] font-normal text-[15px] leading-[1.1] tracking-[0.01em] uppercase text-[#000000] flex-none hover:text-gray-600 transition-colors bg-[#828cf6]
+         px-4 py-2 rounded transition-all hover:bg-opacity-90 shadow-sm duration-300 ease-in-out">Reserve Your Spot</a>
+       </nav>
+       <!-- MOBILE + BUTTON -->
+        <button class="md:hidden ml-auto font-light mr-4">
+            <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777160991/plus_oe8fbz.svg" alt="" class="w-[32px] h-[32px]">
+        </button>
+        
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_3fr] leading-[0.91] 
+    tracking-[-0.03em]"> 
+        <!-- Headline with Container Width Extension -->
+        
+        <h1 class="font-['Anek_Tamil'] col-span-1 md:col-span-2 lg:col-span-2 text-4xl md:text-6xl lg:text-8xl md:p-6 font-bold uppercase">
+        Train Hard.
+        <span class="text-[#828cf6] ml-2">Live </span>
+        <span class="text-[#828cf6]"> Better</span>
+        </h1>
+    </section>
+            <!-- FIRST GRID LAYOUT -->
+        <section class=" border-t border-black grid grid-cols-1 md:grid-cols-3">
+                     <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777111252/meghan-holmes-wy_L8W0zcpI-unsplash_yq5urc.jpg" alt=""
+                      class="md:col-span-2 object-cover w-full h-full">
+            <!-- THE RIGHT CONTENT -->
+             <div class="bg-[#e9ecfd] p-6 flex flex-col justify-start">
+                <h2 class="font-['Anek_Tamil'] font-bold text-2xl mb-3 text-[30px] md:text-3xl lg:text-5xl leading-[0.91] 
+                tracking-[-0.03em] uppercase text-[#000000] uppercase">for the committed</h2>
+                <p class="['Geist'] lg:mt-36 text-[16px] "> Train like an athlete with top-tier equipment and expert programming. 
+                Whether you're building muscle or breaking PRs, we help you push past limits.</p>
+                <div class="p-8 mb-8 leading-[1.1] tracking-[-0.01em]">  <a href="#" class="font-['Geist_Mono'] text-xs uppercase">About Us</a></div>
+            </div>
+        </section>  
+        
+        <!-- TWO FEATURE CARDS -->
+         <section class=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 items-stretch bg-[#e9ecfd] border-t border-black">
+                <div class="border-t border-black order-1 md:order-3 ">
+                        <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777208342/spencer-davis-0ShTs8iPY28-unsplash.jpg_qmcqnt.jpg" 
+                        alt="" class="order-1 md:order-3 w-[430px] h-[380px] md:h-[420px]">
+                 </div>
+                    <!-- Grid for the two text blocks -->
+                    
+                        <div class="p-2 md:p-6 border-b md:border-r border-black order-2 md:order-1 ">
+                            <h2 class="font-['Anek_Tamil'] font-[700] text-[30px] ml-2 mt-4 md:text-[36px] leading-[0.91] tracking-[-0.03em] uppercase">Guided by Experts</h2>
+                            <p class="font-['Geist'] font-[400] mt-2 ml-2 md:mt-36 w-auto h-auto text-[15px] leading-[1.31]"> We believe in creating a positive environment where you can thrive. 
+                        We're here to help you achieve your goals and unlock your full potential.</p>
+                        </div>
+                        
+                        <div class=" p-2 md:p-6 border-black-0 border-b md:border-r border-black order-3 md:order-2">
+                            <h2 class="font-['Anek_Tamil'] font-[700] text-[30px] ml-2 mt-4 md:text-[36px] leading-[0.91] tracking-[-0.03em] uppercase">DYNAMIC OPEN GYM</h2>
+                            <p class="font-['Geist'] font-[400] mt-2 ml-2 md:mt-36 w-[290px] md:w-[210px] lg:w-[375px] h-[140px] text-[15px] leading-[1.31]"> Our facility is the optimal environment for strength training and performance, fully equipped with top-of-the-line tools, ample training areas, and a focus on functional movement.</p>
+                        </div>
+         </section>
+            <!-- JOIN COMMUNITY SECTION -->
+        <section class="p-6 py-[2px] md:py-[36px]">
+                <h1 class="font-['Anek_Tamil'] font-extrabold text-[36px]
+                leading-[1.8] tracking-[-0.05em] md:text-4xl md:text-[8vw] uppercase font-bold ">
+                Join the
+                <span class="text-[#828df6]">Community</span>
+            </h1>
+        </section>
+
+        <!-- DISCOVER LAYOUT WITH IMAGE -->
+
+        <section id="classes" class="bg-[#e9ecfd] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_3fr] gap-8 md:gap-0">
+            <section class="flex flex-col gap-4 order-2 md:order-1 lg:order-1 bg-[#e9ecfd] border-r  ">
+
+                <div class="md:border-t md:border-black">
+                    <h2 class="font-['Anek_Tamil'] font-bold p-6 w-[350px] py-[6px] md:py-[25px] font-700 text-[25px] md:text-[28px] leading-[0.91] tracking-[-0.03em] uppercase"> Discover your potential</h2>
+                 </div>
+    
+                 <div class="p-6 border-t border-black">
+                    <h3 class="font-['Anek_Tamil'] font-700 text-[25px] font-bold w-[350px] h-[23px] leading-[0.91] tracking-[-0.03em] uppercase"> Expert Coaching</h3>
+                    <p class="text-sm mt-2 md:w-[280px]"> Trainers who are passionate about your progress.</p>
+                 </div>
+    
+                <div class="p-6 border-t border-black">
+                    <h3 class="font-['Anek_Tamil'] font-700 font-bold text-[25px] w-[350px] h-[23px] leading-[0.91] tracking-[-0.03em] uppercase"> Results-driven programs</h3>
+                    <p class="text-sm mt-2 md:w-[280px]"> Workouts that deliver tangible, measurable results.</p>
+                </div>
+    
+                <div class="p-6 border-t border-black">
+                    <h3 class="font-['Anek_Tamil'] font-700 font-bold text-[25px] w-[350px] h-[23px] leading-[0.91] tracking-[-0.03em] uppercase"> A supportive Tribe</h3>
+                    <p class="text-sm mt-2"> A community that pushes you to be your best.</p>
+                </div>
+                    <!-- VIEW CLASSES BUTTON -->
+                     <div class="p-10 text-center md:p-6 border-t border-black">
+                        <a href="#classes"
+                        class="inline-block w-[107px] h-17 font-['Geist_Mono'] font-700 text-sm leading-[1.1] tracking-[-0.01em] uppercase hover:text-purple-500 transition">
+                    view classes</a> 
+                     </div>
+             </section>
+                
+                   <section class="aspect-video w-full h-full order-1 md:order-2 lg:order-2">
+                    <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777299328/sven-mieke-Lx_GDv7VA9M-unsplash_dqtsoo.jpg" 
+                    alt="Gym training" class="order-1 md:order-2 lg:order-2 w-full h-full object-cover">
+                 
+                   </section>
+    
+        </section>
+
+        <section class="bg-[#757edd] text-center py-20 border-b border-[#787ad1]">
+            <div class="font-['Anek_Tamil'] uppercase">
+                <p class="text-xs mb-3"> What we believe in </p>
+                <h2 class="text-5xl md:text-3xl font-bold mb-6 leading-[1] tracking-[-0.05em]">
+                    join the primal tribe today!
+                </h2>
+
+                <a href="#classes"
+                    class="bg-[#e9ecfd] inline-block rounded font-['Geist_Mono'] px-6 py-3 font-700 text-sm leading-[1.1] tracking-[-0.01em] uppercase hover:text-purple-500 transition">
+                reserve your spot</a> 
+            </div>
+
+        </section>
+
+    <footer class="bg-[#e9ecfd]">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center px-8 py-2 border-t border-black">
+            <img src="https://res.cloudinary.com/duoibszqt/image/upload/v1777147175/Vector_yddjso.svg" alt="logo"
+             class="h-[89.07px] w-[150px] md:w-[180.32px]">
+            <h2 class="text-5xl md:text-3xl font-bold ">PrimalTraining</h2> 
+        </div>
+
+        <div class=" grid md:grid-cols-3 px-6 pb-10 mt-2 md:mt-36">
+            <div class="py-10 md:py-6 leading-[1.31] tracking-[-0.03em]">
+                <h3 class="font-['Anek_Tamil'] text-xl uppercase font-bold mb-4">contact</h3>
+                <p class="font-['Geist'] font-semibold text-sm">Email: hello@figma.com</p>
+                <p class="font-['Geist'] font-semibold text-sm">Phone: (203) 555-5555</p>
+            </div>
+
+            <div class="py-6 leading-[1.31] tracking-[-0.03em] uppercase ">
+                <h3 class="font-['Anek_Tamil'] text-xl font-bold mb-4">opening hours</h3>
+
+                <div class="space-y-3 font-['Geist'] font-semibold text-sm">
+
+                    <div class="grid grid-cols-2 ">
+                    <span>Mon - Fri</span>
+                    <span>5:00-23:00</span></div>
+
+                    
+                    <div class="grid grid-cols-2">
+                    <span>saturdays</span>
+                    <span>8:00-16:00</span> 
+                    </div>
+
+                 <div class="grid grid-cols-2">
+                    <span>sundays</span>
+                    <span>8:00-13:00</span>
+                </div>
+
+                <div class="grid grid-cols-2">
+                    <span>holidays</span>
+                    <span>8:00-16:00</span>
+                </div>
+            </div>
+            </div>
+
+            <div class="py-6 md:justify-self-end">
+                <h3 class="font-['Anek_Tamil'] text-xl font-bold mb-3> tracking-[-0.03em] uppercase mb-4 "> social</h3>
+                <ul class="font-['Geist'] font-semibold text-sm underline ">
+                    <li><a href="#" class="underline">Instagram</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="">LinkedIn</a> </li>
+                    <li><a href="#">Spotify</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+    
+</body>
+</html>
